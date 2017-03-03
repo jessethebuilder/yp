@@ -1,4 +1,7 @@
 Rails.application.configure do
+  ENV['YP_SEARCH_TERMS'] = "Car Dealer"
+  ENV['YP_LOCATIONS'] = "port angeles, WA"
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on

@@ -7,12 +7,13 @@ end
 
 gem 'mongoid'
 
-# gem 'bootstrap-sass'
+gem 'bootstrap-sass'
 
 # gem 'kaminari'
 
-# gem 'farm_ruby', git: 'https://github.com/jessethebuilder/farm_ruby'
+gem 'farm_ruby', git: 'https://github.com/jessethebuilder/farm_ruby'
 # gem 'farm_scrape', git: 'https://github.com/jessethebuilder/farm_scrape.git'
+gem 'farm_scrape', path: '/var/www/my_gems/farm_scrape'
 
 
 # group :test, :development do
